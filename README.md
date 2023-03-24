@@ -1,2 +1,2 @@
 # BMI-PROJECT-NEW
-mini project from revou
+FIRST Tievz's Project
