@@ -4,7 +4,7 @@ let bb = document.getElementById("berat");
 let result = document.getElementById("result");
 let keterangan = document.getElementById("keterangan");
 let reset = document.getElementById("reset");
-
+// Hitung BMI
 bmi_math.addEventListener("click", function () {
   let tb = tb_cm.value / 100;
   let bmi = Number(bb.value / (tb * tb)).toFixed(2);
@@ -41,7 +41,7 @@ bmi_math.addEventListener("click", function () {
     keterangan.innerHTML = `Hasil perhitungan menunjukkan bahwa Anda tergolong <b>obesitas</b>. Hasil ini berdasarkan angka BMI Anda lebih dari 30. Perlu diketahui bahwa obesitas lebih parah daripada gemuk. Seseorang yang gemuk belum tentu obesitas, sedangkan seseorang yang obesitas sudah dipastikan gemuk. Jika dibiarkan, bisa berisiko menderita berbagai penyakit serius. Cara menurunkan berat badan yaitu dengan mengurangi asupan kalori harian sekitar 300-500 kkal. Cara ini dapat membantu menurunkan berat badan sebesar 0,5-1 kg per minggu. Mengurangi asupan kalori saja tidak cukup. Anda perlu melakukan olahraga rutin untuk mendapatkan berat badan ideal.`;
   }
 });
-
+// Reset Hasil 
 reset.addEventListener("click", function () {
   result.innerHTML = "";
   keterangan.innerHTML = "";
