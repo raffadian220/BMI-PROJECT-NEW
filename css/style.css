@@ -125,3 +125,10 @@ footer {
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
 }
+
+/* MEDIA */
+@media screen and (max-width: 720px) {
+html {
+  font-size: 75%;
+  
+  }
